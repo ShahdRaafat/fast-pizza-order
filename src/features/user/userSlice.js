@@ -6,7 +6,6 @@
 // }
 
 import { createSlice } from '@reduxjs/toolkit';
-import { useSelector } from 'react-redux';
 
 // async function fetchAddress() {
 //   // 1) We get the user's geolocation position
