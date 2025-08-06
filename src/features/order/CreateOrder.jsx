@@ -123,7 +123,7 @@ function CreateOrder() {
                 : ''
             }
           />
-          <Button disabled={isSubmitting} type="primary">
+          <Button disabled={isSubmitting || isLoadingAddress} type="primary">
             {' '}
             {isSubmitting
               ? 'Placing order....'
