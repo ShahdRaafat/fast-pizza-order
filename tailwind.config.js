@@ -19,9 +19,9 @@ export default {
           dark: '#1a53c0',
         },
       },
-      // height: {
-      //   screen: '100dvh',
-      // },
+      height: {
+        screen: '100dvh',
+      },
     },
   },
   plugins: [],
